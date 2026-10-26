@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products | Saikia Stone Crushers</title>
+    <meta name="description" content="Technical specifications for crusher aggregates, M-Sand, hotmix and construction services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config={theme:{extend:{
+      fontFamily:{sans:['Inter','sans-serif']},
+      colors:{primary:'#212B3A','primary-container':'#374151',secondary:'#9D4300',safety:'#FD761A',surface:'#F6F9FF','surface-low':'#F0F4FA','surface-mid':'#EAEEF4','surface-high':'#E4E8EE','surface-highest':'#DFE3E9',ink:'#171C20',outline:'#c4c9d0'},
+      borderRadius:{DEFAULT:'0.25rem',md:'0.375rem',lg:'0.5rem'},
+      boxShadow:{amb:'0 8px 24px rgba(23,28,32,0.06)'},
+      transitionDuration:{DEFAULT:'300ms'}
+      }}}
+    </script>
+    <style>
+      html{scroll-behavior:smooth} body{font-family:Inter,sans-serif;background:#F6F9FF;color:#171C20;line-height:1.6}
+      .label{font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+      .display{font-weight:800;letter-spacing:-.02em;line-height:1.05}
+      .metal{background:linear-gradient(135deg,#212B3A 0%,#374151 100%)}
+      .btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:.375rem;padding:.8rem 1.5rem;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;transition:all .3s ease-in-out}
+      .btn:hover{transform:translateY(-4px)}
+      .btn-safety{background:#FD761A;color:#fff} .btn-safety:hover{background:#e86508}
+      .btn-slate{background:linear-gradient(135deg,#212B3A,#374151);color:#fff}
+      .btn-ghost{background:#DFE3E9;color:#171C20}
+      .field{width:100%;background:#F0F4FA;padding:.85rem 1rem;border-bottom:2px solid #c4c9d0;outline:none;transition:border-color .3s;border-radius:.25rem .25rem 0 0}
+      .field:focus{border-bottom-color:#FD761A}
+    </style>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50 bg-surface/80 backdrop-blur-[16px]">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="text-lg font-black tracking-tight">SAIKIA STONE CRUSHER</a>
+        <nav class="hidden items-center gap-8 md:flex">
+          <a href="index.html" class="label py-1 text-ink/80 hover:text-secondary" style="font-weight:600">Home</a>
+          <a href="about.html" class="label py-1 text-ink/80 hover:text-secondary" style="font-weight:600">About Us</a>
+          <a href="products.html" class="label py-1 text-secondary border-b-2 border-safety" style="font-weight:600">Products</a>
+          <a href="contact.html" class="label py-1 text-ink/80 hover:text-secondary" style="font-weight:600">Contact Us</a>
+        </nav>
+        <a href="contact.html" class="btn btn-slate hidden md:inline-flex">Request a Quote</a>
+        <button id="menuBtn" aria-label="Menu" class="p-2 md:hidden">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18M3 12h18M3 18h18"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobileMenu" class="hidden bg-surface md:hidden">
+        <a href="index.html" class="label block px-6 py-3 text-ink/80">Home</a>
+        <a href="about.html" class="label block px-6 py-3 text-ink/80">About Us</a>
+        <a href="products.html" class="label block px-6 py-3 text-secondary bg-surface-low">Products</a>
+        <a href="contact.html" class="label block px-6 py-3 text-ink/80">Contact Us</a>
+        <a href="contact.html" class="btn btn-slate m-6">Request a Quote</a>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="bg-surface-low">
+        <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-16 md:flex-row md:items-center md:py-20">
+          <div>
+            <p class="label text-secondary">Engineered strength</p>
+            <h1 class="display mt-3 text-4xl md:text-6xl">INDUSTRIAL GRADE<br><span class="text-safety">STONE SOLUTIONS</span></h1>
+            <p class="mt-6 max-w-lg text-ink/70">Providing the tectonic foundation for infrastructure projects. From precision-crushed stone to large-scale construction services, we deliver machined accuracy with every ton.</p>
+          </div>
+          <div class="rounded-lg bg-primary p-6 text-white shadow-amb">
+            <p class="label text-white/55" style="font-size:.65rem">Annual output</p>
+            <p class="mt-1 text-3xl font-extrabold">500,000+</p>
+            <p class="text-sm text-white/70">Metric tons</p>
+          </div>
+        </div>
+      </section>
+      <section id="aggregates" class="bg-surface">
+        <div class="mx-auto max-w-7xl px-6 py-24">
+          <div class="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p class="label flex items-center gap-3 text-ink/55"><span class="h-0.5 w-8 bg-ink/30"></span>Category 01</p>
+              <h2 class="mt-3 text-3xl font-bold md:text-4xl">Crusher Aggregates</h2>
+              <p class="mt-4 max-w-xl text-ink/70">Our premium stone aggregates are sourced from high-quality basalt and granite deposits, processed through multi-stage crushing units to ensure cubical shape and superior bonding properties.</p>
+            </div>
+            <span class="label inline-flex items-center gap-2 rounded bg-surface-highest px-4 py-3 text-ink/70" style="font-size:.65rem">
+              <span class="text-secondary">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+                  <path d="M12 2l8 3v6c0 5-3.500 9-8 11-4.500-2-8-6-8-11V5l8-3z"/>
+                </svg>
+              </span>Certified ISO 9001 specs
+            </span>
+          </div>
+          <div class="mt-12 grid gap-6 md:grid-cols-3">
+            <article class="overflow-hidden rounded-lg bg-surface-mid">
+              <div class="relative overflow-hidden bg-primary-container h-48 ">
+                <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                  <span class="label text-white/35 px-4 text-center">20mm Aggregates<br>
+                    <span class="normal-case tracking-normal font-normal">images/agg-20mm.jpg</span>
+                  </span>
+                </div>
+                <img src="images/agg-20mm.jpg" alt="20mm Aggregates" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+              </div>
+              <div class="p-6">
+                <div class="-mt-14 mb-4 relative z-10 flex gap-1">
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Roadbase</span>
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Concrete</span>
+                </div>
+                <h3 class="text-lg font-bold">20mm Aggregates</h3>
+                <p class="mt-2 text-sm text-ink/65">Primary choice for reinforced concrete structures and bridge foundations.</p>
+                <div class="mt-5 space-y-2 text-xs">
+                  <p class="flex justify-between"><span class="text-ink/55">Crush Value</span><b>22% Max</b></p>
+                  <p class="flex justify-between"><span class="text-ink/55">Shape Index</span><b>Cubical</b></p>
+                </div>
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-lg bg-surface-mid">
+              <div class="relative overflow-hidden bg-primary-container h-48 ">
+                <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                  <span class="label text-white/35 px-4 text-center">10mm Chips<br>
+                    <span class="normal-case tracking-normal font-normal">images/agg-10mm.jpg</span>
+                  </span>
+                </div>
+                <img src="images/agg-10mm.jpg" alt="10mm Chips" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+              </div>
+              <div class="p-6">
+                <div class="-mt-14 mb-4 relative z-10 flex gap-1">
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Pre-cast</span>
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Flooring</span>
+                </div>
+                <h3 class="text-lg font-bold">10mm Chips</h3>
+                <p class="mt-2 text-sm text-ink/65">Precision-sized for pre-cast concrete blocks and high-density flooring applications.</p>
+                <div class="mt-5 space-y-2 text-xs">
+                  <p class="flex justify-between"><span class="text-ink/55">Impact Value</span><b>16% Max</b></p>
+                  <p class="flex justify-between"><span class="text-ink/55">Moisture</span><b>< 0.5%</b></p>
+                </div>
+              </div>
+            </article>
+          <article class="overflow-hidden rounded-lg bg-surface-mid">
+            <div class="relative overflow-hidden bg-primary-container h-48 ">
+              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                <span class="label text-white/35 px-4 text-center">40mm Metal<br>
+                  <span class="normal-case tracking-normal font-normal">images/agg-40mm.jpg</span>
+                </span>
+              </div>
+              <img src="images/agg-40mm.jpg" alt="40mm Metal" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+            </div>
+              <div class="p-6">
+                <div class="-mt-14 mb-4 relative z-10 flex gap-1">
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">GSB</span>
+                  <span class="bg-primary px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Railways</span>
+                </div>
+                <h3 class="text-lg font-bold">40mm Metal</h3>
+                <p class="mt-2 text-sm text-ink/65">Heavy-duty base material for Granular Sub-Base (GSB) and railway ballast applications.</p>
+                <div class="mt-5 space-y-2 text-xs">
+                  <p class="flex justify-between"><span class="text-ink/55">Flakiness</span><b>30% Max</b></p>
+                  <p class="flex justify-between"><span class="text-ink/55">Bulk Density</span><b>1650 kg/m³</b></p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sand" class="bg-surface-low">
+        <div class="mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+          <div>
+            <p class="label flex items-center gap-3 text-ink/55"><span class="h-0.5 w-8 bg-ink/30"></span>Category 02</p>
+            <h2 class="mt-3 text-3xl font-bold md:text-4xl">Crushed Sand<br>&amp; Fines</h2>
+            <p class="mt-5 text-ink/70">Our Manufactured Sand (M-Sand) is an eco-friendly alternative to river sand, designed specifically to reduce environmental impact while providing superior workability in mortar and concrete.</p>
+            <div class="mt-6 space-y-3">
+              <div class="rounded-lg border-l-4 border-safety bg-white p-4 shadow-amb">
+                <p class="text-sm font-bold">Plaster Sand (Fine)</p>
+                <p class="text-xs text-ink/60">Sieved to &lt;2.36mm for smooth finishing and zero wastage.</p>
+              </div>
+              <div class="rounded-lg border-l-4 border-primary-container bg-white p-4 shadow-amb">
+                <p class="text-sm font-bold">Concrete Sand (Coarse)</p>
+                <p class="text-xs text-ink/60">Graded for maximum compaction and structural integrity.</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="relative row-span-2">
+              <div class="relative overflow-hidden bg-primary-container h-full min-h-[20rem] rounded-lg">
+                <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                  <span class="label text-white/35 px-4 text-center">Washed M-Sand<br><span class="normal-case tracking-normal font-normal">images/msand.jpg</span></span>
+                </div>
+                <img src="images/msand.jpg" alt="Washed M-Sand" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+              </div>
+              <p class="absolute bottom-4 left-4 text-white"><span class="text-xs">Washed M-Sand</span><br><b class="text-lg italic">ECO-FRIENDLY</b></p>
+            </div>
+            <div class="rounded-lg bg-primary p-6 text-white">
+                <p class="text-3xl font-extrabold">0.0%</p>
+                <p class="label text-white/60" style="font-size:.65rem">Silt content</p>
+            </div>
+            <div class="relative overflow-hidden bg-primary-container h-40 rounded-lg">
+              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                <span class="label text-white/35 px-4 text-center">Workers on site<br>
+                  <span class="normal-case tracking-normal font-normal">images/site-work.jpg</span>
+                </span>
+              </div>
+              <img src="images/site-work.jpg" alt="Workers on site" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="bg-surface">
+        <div class="mx-auto max-w-7xl px-6 py-24">
+          <div class="text-center">
+            <p class="label text-secondary">Scale &amp; capability</p>
+            <h2 class="display mt-3 text-3xl md:text-4xl">SPECIALIZED INFRA SERVICES</h2>
+          </div>
+          <div class="mt-14 grid gap-10 md:grid-cols-2">
+            <div class="relative pb-24">
+              <div class="relative overflow-hidden bg-primary-container h-80 rounded-lg">
+                <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                  <span class="label text-white/35 px-4 text-center">Hotmix plant<br>
+                    <span class="normal-case tracking-normal font-normal">images/hotmix.jpg</span>
+                  </span>
+                </div>
+                <img src="images/hotmix.jpg" alt="Hotmix plant" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+              </div>
+              <span class="label absolute left-4 top-4 bg-secondary px-3 py-1.5 text-white" style="font-size:.65rem">Capacity: 120 TPH</span>
+              <div class="absolute inset-x-6 bottom-0 rounded-lg border-b-4 border-safety bg-white p-6 shadow-amb">
+                <h3 class="font-bold">Hotmix Plant Services</h3>
+                <p class="mt-2 text-sm text-ink/65">Supplying Bituminous Concrete (BC) and Dense Bituminous Macadam (DBM) for national highways and commercial connectivity.</p>
+                <div class="mt-4 grid grid-cols-2 gap-2 text-[11px] font-bold uppercase">
+                  <span>▪ Electronic batching</span>
+                  <span>▪ Thermal insulation</span>
+                  <span>▪ Lab tested mix</span>
+                  <span>▪ 24/7 supply log</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative pb-24 md:mt-10">
+              <div class="relative overflow-hidden bg-primary-container h-80 rounded-lg">
+                <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-container to-primary">
+                  <span class="label text-white/35 px-4 text-center">Road paving<br>
+                    <span class="normal-case tracking-normal font-normal">images/road-works.jpg</span>
+                  </span>
+                </div>
+                <img src="images/road-works.jpg" alt="Road paving" loading="lazy" onerror="this.remove()" class="absolute inset-0 h-full w-full object-cover">
+              </div>
+              <span class="label absolute left-4 top-4 bg-primary px-3 py-1.5 text-white" style="font-size:.65rem">Govt. Contractor</span>
+              <div class="absolute inset-x-6 bottom-0 rounded-lg bg-white p-6 shadow-amb">
+                <h3 class="font-bold">Construction Services</h3>
+                <p class="mt-2 text-sm text-ink/65">Full-scale road paving, earthwork, and drainage construction for urban development and rural connectivity.</p>
+                <a href="contact.html" class="btn btn-safety mt-4 w-full justify-center">Start your project 
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M13 6l6 6-6 6"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-surface-low">
+        <div class="mx-auto max-w-7xl px-6 py-24">
+          <h2 class="text-2xl font-bold">Technical Data Sheets</h2>
+          <span class="mt-4 block h-1 w-12 bg-safety"></span>
+          <div class="mt-10 overflow-x-auto rounded-lg shadow-amb">
+            <table class="w-full min-w-[640px] text-left">
+              <thead class="bg-primary text-white">
+                <tr>
+                  <th class="label px-6 py-4" style="font-size:.65rem">Property</th>
+                  <th class="label px-6 py-4" style="font-size:.65rem">Aggregate (Coarse)</th>
+                  <th class="label px-6 py-4" style="font-size:.65rem">M-Sand (Fine)</th>
+                  <th class="label px-6 py-4" style="font-size:.65rem">Hotmix DBM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white">
+                  <td class="px-6 py-5 text-sm font-medium">Specific Gravity</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">2.65 – 2.80</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">2.55 – 2.65</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">2.40 Min</td>
+                </tr>
+                <tr class="bg-surface-low">
+                  <td class="px-6 py-5 text-sm font-medium">Water Absorption</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">< 0.6%</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">< 2.0%</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">N/A</td>
+                </tr>
+                <tr class="bg-white">
+                  <td class="px-6 py-5 text-sm font-medium">Stripping Value</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">95% Min</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">N/A</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">98% Retained</td>
+                </tr>
+                <tr class="bg-surface-low">
+                  <td class="px-6 py-5 text-sm font-medium">Soundness (Na2SO4)</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">< 12%</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">< 10%</td>
+                  <td class="px-6 py-5 text-sm text-ink/70">< 12%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mt-8 text-center">
+            <a href="contact.html" class="label inline-flex items-center gap-2 text-secondary hover:text-primary">Request full product catalog 
+              <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t-[3px] border-safety bg-primary text-white/60">
+      <div class="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
+        <div class="md:col-span-2">
+          <p class="text-lg font-black tracking-widest text-white">SAIKIA STONE CRUSHER</p>
+          <p class="mt-4 max-w-sm text-sm">The leading provider of high-quality stone aggregates, sand, and infrastructure services in North Lakhimpur, Assam. Built on a legacy of precision and reliability.</p>
+          <div class="mt-6 flex gap-3 text-white">
+            <span class="rounded bg-white/10 p-2.5">
+              <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+                <path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+              </svg>
+            </span>
+            <a href="tel:+916900150929" class="rounded bg-white/10 p-2.5">
+              <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+                <path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.250.2 2.450.6 3.600a1 1 0 0 1-.25 1z"/>
+              </svg>
+            </a>
+            <a href="mailto:mssaikiastonecrusher@gmail.com" class="rounded bg-white/10 p-2.5">
+              <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+                <path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7L4 7.500V17h16V7.500L12 12zm0-2l8-4.500H4L12 10z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <p class="label text-safety">Navigation</p>
+          <div class="mt-4 text-sm">
+            <a href="index.html" class="block py-1 hover:text-safety ">Home</a>
+            <a href="about.html" class="block py-1 hover:text-safety ">About Us</a>
+            <a href="products.html" class="block py-1 hover:text-safety text-white">Products</a>
+            <a href="contact.html" class="block py-1 hover:text-safety ">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <p class="label text-safety">Visit Us</p>
+          <p class="mt-4 text-sm">Madhabpur, North Lakhimpur<br>Assam 787031, India</p>
+          <p class="mt-4 text-sm">Mon – Sat: 8 AM – 6 PM</p>
+          <p class="mt-4 text-sm text-safety">+91 6900 150929</p>
+        </div>
+      </div>
+      <div class="bg-black/20">
+        <div class="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-6 py-5 text-xs tracking-widest sm:flex-row">
+          <span>© 2026 SAIKIA STONE CRUSHER. ALL RIGHTS RESERVED.</span>
+          <span class="text-safety">NORTH LAKHIMPUR, ASSAM, INDIA</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>document.getElementById('menuBtn').onclick=()=>document.getElementById('mobileMenu').classList.toggle('hidden')</script>
+
+  </body>
+</html>
